@@ -38,7 +38,8 @@ Version Compatibility
  5.5.x    | 2.5.x
  5.6.x    | 2.6.x
  5.x.x    | 3.3.x  
- 6.x.x    | 3.4.x  
+ 6.x.x    | 3.4.x
+ 7.x.x    | 3.7.x   
 
 Updating Eloquent models
 ------------------------
@@ -287,6 +288,9 @@ vendor/bin/phpunit
 
 Changelog
 ---------
+
+3.7.0
+- Support Laravel 7.0 version
 
 3.6.0
 - Add `isFirst`, `isNotFirst`, `isLast`, `isNotLast` method
